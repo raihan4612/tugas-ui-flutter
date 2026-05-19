@@ -16,10 +16,10 @@ class StoryItem extends StatelessWidget {
       padding: const EdgeInsets.all(8),
       child: Column(
         children: [
-          CircleAvatar(
-            radius: 30,
-            backgroundImage: NetworkImage(image),
-          ),
+        CircleAvatar(
+          radius: 32,
+          backgroundImage: AssetImage(image),
+        ),
           const SizedBox(height: 5),
           Text(name),
         ],

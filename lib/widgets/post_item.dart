@@ -22,7 +22,7 @@ class PostItem extends StatelessWidget {
 
         ListTile(
           leading: CircleAvatar(
-            backgroundImage: NetworkImage(userImage),
+            backgroundImage: AssetImage(userImage) as ImageProvider,
           ),
           title: Text(
             username,
@@ -31,7 +31,7 @@ class PostItem extends StatelessWidget {
           trailing: const Icon(Icons.more_vert),
         ),
 
-        Image.network(
+        Image.asset(
           postImage,
           width: double.infinity,
           height: 300,

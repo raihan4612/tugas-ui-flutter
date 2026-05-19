@@ -24,18 +24,18 @@ class HomePage extends StatelessWidget {
                 children: const [
 
                   StoryItem(
-                    name: 'Budi',
-                    image: 'https://i.pravatar.cc/150?img=1',
+                    name: 'Hanns4612',
+                    image: 'assets/images/pp-1.jpg',
                   ),
 
                   StoryItem(
-                    name: 'Sari',
-                    image: 'https://i.pravatar.cc/150?img=2',
+                    name: 'Budi_gaming',
+                    image: 'assets/images/pp-2.jpg',
                   ),
 
                   StoryItem(
                     name: 'Andi',
-                    image: 'https://i.pravatar.cc/150?img=3',
+                    image: 'assets/images/pp-3.jpg',
                   ),
                 ],
               ),
@@ -44,24 +44,24 @@ class HomePage extends StatelessWidget {
             const Divider(),
 
             const PostItem(
-              username: 'budi_123',
-              userImage: 'https://i.pravatar.cc/150?img=5',
-              postImage: 'https://picsum.photos/500/400?1',
-              caption: 'Liburan dulu 😎',
+              username: 'hanns4612',
+              userImage: 'assets/images/pp-1.jpg',
+              postImage: 'assets/images/post1.jpg',
+              caption: 'Nugas dulu biar hidup tenang!',
             ),
 
             const PostItem(
-              username: 'sari_cantik',
-              userImage: 'https://i.pravatar.cc/150?img=6',
-              postImage: 'https://picsum.photos/500/400?2',
-              caption: 'Healing tipis-tipis 🌸',
+              username: 'ryan_gaming',
+              userImage: 'assets/images/pp-2.jpg',
+              postImage: 'assets/images/post2.jpg',
+              caption: 'P.. info mabar nih? 😎',
             ),
 
             const PostItem(
-              username: 'andi_gaming',
-              userImage: 'https://i.pravatar.cc/150?img=7',
-              postImage: 'https://picsum.photos/500/400?3',
-              caption: 'Main game santai 🎮',
+              username: 'andi_siMuncak',
+              userImage: 'assets/images/pp-3.jpg',
+              postImage: 'assets/images/post3.jpg',
+              caption: 'Muncak gunung itu indah, tapi lebih indah lagi kalau bisa mabar bareng temen-temen! 🏔️',
             ),
           ],
         ),
