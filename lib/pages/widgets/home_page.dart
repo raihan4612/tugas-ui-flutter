@@ -10,5 +10,10 @@ class HomePage extends StatelessWidget {
         title: const Text('Instagram'),
       ),
     );
+    
+    //Body Homepage
+    body: const Center(
+      child: Text('Instagram Feed'),
+    ),    
   }
 }
