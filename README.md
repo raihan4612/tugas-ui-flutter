@@ -47,7 +47,7 @@ Project dibuat menggunakan struktur folder Flutter yang rapi dengan pemisahan ha
 
 ## Screenshot
 
-![Hasil UI](screenshot/hasil_ui.png)
+![Hasil UI](screenshot/hasil-ui.png)
 
 ---
 
